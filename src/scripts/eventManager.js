@@ -5,3 +5,10 @@ const handleDelete = () => {
   deletePark(parkId)
   .then(() => listNationalParks())
 };
+
+const handleDeleteMonument = () => {
+  let monumentId = event.target.id.split("--")[1];
+
+  deleteMonument(monumentId)
+  .then(() => listMonuments())
+};

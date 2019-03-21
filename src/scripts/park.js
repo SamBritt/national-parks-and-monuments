@@ -13,3 +13,4 @@ const buildParkHtml = parkObject => {
   deleteParkButton.addEventListener("click", handleDelete)
   return parkArticle;
 };
+

@@ -17,14 +17,6 @@
       "visited": true
     },
     {
-      "id": 3,
-      "name": "Joshua Tree National Park",
-      "state": "CA",
-      "latitude": 33.881866,
-      "longitude": -115.90065,
-      "visited": true
-    },
-    {
       "id": 4,
       "name": "Yellowstone National Park",
       "state": "WY",
@@ -136,30 +128,6 @@
       "state": "AK",
       "area": 2294072,
       "dateEstablished": "12-01-1978",
-      "visited": false
-    },
-    {
-      "id": 8,
-      "name": "Mount St. Helens",
-      "state": "WA",
-      "area": 113205,
-      "dateEstablished": "08-27-1982",
-      "visited": false
-    },
-    {
-      "id": 9,
-      "name": "Natural Bridges",
-      "state": "UT",
-      "area": 7636.49,
-      "dateEstablished": "04-16-1908",
-      "visited": false
-    },
-    {
-      "id": 10,
-      "name": "Navajo",
-      "state": "AZ",
-      "area": 360,
-      "dateEstablished": "03-20-1909",
       "visited": false
     }
   ]
