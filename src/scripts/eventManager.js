@@ -12,3 +12,12 @@ const handleDeleteMonument = () => {
   deleteMonument(monumentId)
   .then(() => listMonuments())
 };
+
+const handleVisited = () => {
+  let parkId = event.target.id.split('--')[1];
+   let visitedparkObject = {
+     visited: true
+   }
+   putPark(parkId, visitedparkObject)
+   .then(() => listNationalParks())
+}

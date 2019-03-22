@@ -8,6 +8,12 @@ const buildParkHtml = parkObject => {
   parkArticle.appendChild(buildElement("h3", undefined, parkObject.name));
   parkArticle.appendChild(buildElement("p", undefined, parkObject.state));
 
+  if(parkObject.visited !== true){
+    let visitedButton = buildElement('button', `visited-park--${parkObject.id}`, "Visited Park");
+    parkArticle.appendChild(visitedButton);
+    visitedButton.addEventListener('click', handleVisited);
+  }
+
   let deleteParkButton = buildElement("button", `delete-park--${parkObject.id}`, "Delete Park")
   parkArticle.appendChild(deleteParkButton);
   deleteParkButton.addEventListener("click", handleDelete)
