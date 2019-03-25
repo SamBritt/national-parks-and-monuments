@@ -1,5 +1,5 @@
 const listMonuments = () => {
-    getAllMonumnets().then(monumentArray => {
+    getAllMonuments().then(monumentArray => {
         let monumentFragment = document.createDocumentFragment();
 
         monumentArray.forEach(monument => {
